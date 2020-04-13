@@ -1,27 +1,24 @@
 <template>
   <v-app>
-    <v-app-bar color="#fff">
-      <NavHead />
-    </v-app-bar>
+    <Header />
+    <router-view />
+    <Main />
 
-    <HelloWorld />
-    <v-footer>
-      <Footer />
-    </v-footer>
+    <Footer />
   </v-app>
 </template>
 
 <script>
-import NavHead from './components/NavHead';
-import HelloWorld from './components/HelloWorld';
+import Header from './components/Header';
+import Main from './components/Main';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    NavHead,
-    HelloWorld,
+    Header,
+    Main,
     Footer
   },
 

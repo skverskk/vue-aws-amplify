@@ -1,6 +1,5 @@
 <template>
   <v-container>
-    <br />
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -12,16 +11,14 @@
       </v-col>
 
       <v-col class="mb-1">
-        <h1 class="display-2 font-weight-bold">
-          Welcome to kenskversky.com
-        </h1>
+        <h1 class="display-2 font-weight-bold">Welcome to kenskversky.com</h1>
 
         <p class="subheading font-weight-regular">
-          Full Stack Web Development, <br />utilizing AWS and Vuejs
+          Full Stack Web Development,
+          <br />utilizing AWS and Vuejs
         </p>
       </v-col>
     </v-row>
-    <br /><br />
   </v-container>
 </template>
 

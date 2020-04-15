@@ -1,35 +1,8 @@
 <template>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-=======
-=======
->>>>>>> 1aa037e... Fixed footer and Nav
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        <v-img
-          max-height="180"
-          :src="require('../assets/kenskversky_logo.png')"
-          contain
-          height="150"
-        />
+        <v-img max-height="180" src="../assets/kenskversky_logo.png" contain height="150" />
       </v-col>
 
       <v-col class="mb-1">
@@ -42,16 +15,6 @@ export default {
       </v-col>
     </v-row>
   </v-container>
-<<<<<<< HEAD
-=======
-  <div class="home">
-    <v-container>
-      <h1>This is the Home Page</h1>
-    </v-container>
-  </div>
->>>>>>> parent of 1aa037e... Fixed footer and Nav
-=======
->>>>>>> 1aa037e... Fixed footer and Nav
 </template>
 
 <script>
@@ -60,7 +23,6 @@ export default {
 
   data: () => ({})
 };
->>>>>>> 1aa037e... Fixed footer and Nav
 </script>
 <style>
 h1 {
